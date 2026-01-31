@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель Alfacomp</title>
+    <style>
+        .admin-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .admin-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .admin-btn {
+            background: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .admin-btn:hover {
+            background: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Админ-панель Alfacomp</h1>
+
+        <div class="admin-section">
+            <h3>Управление товарами</h3>
+            <button class="admin-btn">Добавить товар</button>
+            <button class="admin-btn">Редактировать товары</button>
+            <button class="admin-btn">Удалить товар</button>
+        </div>
+
+        <div class="admin-section">
+            <h3>Управление заказами</h3>
+            <button class="admin-btn">Просмотреть заказы</button>
+            <button class="admin-btn">Изменить статус</button>
+        </div>
+
+        <div class="admin-section">
+            <h3>Статистика</h3>
+            <p>Посещения: 1,234</p>
+            <p>Заказы: 56</p>
+            <p>Доход: 89,500 руб.</p>
+        </div>
+
+        <a href="../../templates/index.html" style="display: inline-block; margin-top: 20px; color: #3498db;">← Вернуться на сайт</a>
+    </div>
+</body>
+</html>
